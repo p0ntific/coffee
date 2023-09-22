@@ -10,6 +10,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 html {
   color: #222;
@@ -261,3 +262,52 @@ textarea {
   }
 }
 
+:root{
+  --primary-color:#415167;
+  --accent-color:#C7A17A;
+  --darkGray-color:#151D28;
+  --lightGray-color:#EDF0F5;
+}
+*{
+  font-family: 'Nunito', sans-serif;
+}
+.logo, .logo span{
+  font-size: 54px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  line-height: 70px;
+}
+
+.heading__main{
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  line-height: 34px;
+}
+
+.heading{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.heading__light{
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.text{
+  font-size: 16px;
+  line-height: 20px;
+}
+.text__light{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.button{
+  font-size: 16px;
+  font-weight: 500;
+}
